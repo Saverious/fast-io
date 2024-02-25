@@ -12,7 +12,7 @@ To test the relationship between buffer-size and I/O speed, an operation was don
 The following results show the performance of the I/O operation with varying buffer sizes:
 
 |                     | Execution time (seconds) |
-                      |--------------------------|
+|---------------------|--------------------------|
 | Buffer-size (bytes) | test1 | test2 | test3  | Average |
 |---------------------|-------|-------|--------|---------|
 |          30         |   90  |   90  |   107  |    95   |
