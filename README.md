@@ -20,3 +20,6 @@ The following results show the performance of the I/O operation with varying buf
 | 1024                | 4     | 3     | 3      | 3       |
 | 2048                | 2     | 2     | 2      | 2       |
 | 4096                | 1     | 1     | 1      | 1       |
+
+
+From the results, it is evident that the speed of I/O operation increases with increase in buffer size.
