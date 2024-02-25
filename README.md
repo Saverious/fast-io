@@ -9,7 +9,7 @@ The program also uses goroutines for concurrent programming and go channels for 
 ## buffer-size to speed relationship
 To test the relationship between buffer-size and I/O speed, an operation was done, involving reading from a very large file and writing the data to a new file.
 
-The following results show the performance of the I/O operation with varying buffer sizes:
+The following results show the performance of the I/O operation with varying buffer sizes. Each test took n seconds to run:
 
 | Buffer-size (bytes) | test1 | test2 | test3  | Average |
 |---------------------|-------|-------|--------|---------|
