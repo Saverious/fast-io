@@ -4,7 +4,7 @@ The program demonstrates how an I/O operation can be done much faster with the u
 
 It makes use of buffers for reading large chunks of data and writing them to a file, reducing system calls. The size of the buffer used can vary based on the size of the file and the underlying system's memory.
 
-The program also uses goroutines for concurrent programming and go channels for synchronization. For smaller files, direct I/O is recommended.
+The program also uses goroutines for concurrent reading and writing, and go channels for synchronization of this process. For smaller files, direct I/O is recommended.
 
 ## buffer-size to speed relationship
 To test the relationship between buffer-size and I/O speed, an operation was done, involving reading from a very large file and writing the data to a new file.
